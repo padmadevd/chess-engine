@@ -1,0 +1,14 @@
+temp.txt
+
+// uint8_t Board::GetPosition(uint8_t piece){
+
+// 	if(piece != EMPTY){
+// 		for (uint8_t s = 0; s < 64; s++)
+// 		{
+// 			if(squares[s] == piece){
+// 				return uint8_t(s);
+// 			}
+// 		}
+// 	}
+// }
+// TODO 

@@ -1,0 +1,7 @@
+g++ -o flappybird main.cpp raylibX.cpp -I/home/dev/programming/cpp/include -L/home/dev/programming/cpp/lib -lraylib -limgui -limgui_glfw_gl3 -lX11 -lGL
+
+ g++ -o main.out main.cpp draw.cpp types.cpp -I/home/dev/programming/cpp/include -L/home/dev/programming/cpp/lib -lraylib -lX11 -lGL
+
+ g++ -o main.out main.cpp raylibX.cpp chess.cpp game.cpp menu.cpp -I/home/dev/programming/cpp/include -L/home/dev/programming/cpp/lib -lraylib -lX11 -lGL
+
+ g++ -o main.out main.cpp raylibX.cpp chess.cpp game.cpp menu.cpp status.cpp -I/home/dev/programming/cpp/include -L/home/dev/programming/cpp/lib -lraylib -lX11 -lGL
